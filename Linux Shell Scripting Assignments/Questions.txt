@@ -1,0 +1,279 @@
+
+PART 2
+Assignment Question
+
+Unix/Linux Shell Script 
+Make use of Redirection and Pipe if required in Script
+
+
+1)	Write a Shell Script to input Two numbers in a interactive mode and display the sum of two number
+
+
+2)	Write a Shell program to accept a number & print Positive , Negative , Zero , Greater Then 1000 , Even , Odd numbers as Output.
+
+
+3)	Write a Shell Programming Using if else then statement
+Accept Customer Name , Bill Amount
+Calculate discount 
+Bill Amount				Discount Rate
+<= 500					Nil 
+> 500 <= 2000				2%
+> 2000 <= 5000				5%
+> 5000 <= 10000				8%
+> 10000 & above				10%
+
+Print Customer Name , Bill Amount and Discount.
+Also take the output in a file
+
+
+4)	Write a Shell Script to print the Series
+0 1 1 2 3 5 8 13 21 34 55 89 …..
+
+
+5)	Write a Shell Script to display output as using Nested While Loops
+
+1
+12
+123
+1234
+12345
+
+
+
+
+
+
+
+6)	Write a Shell program to accept Subject Marks and Validate for 
+Blanks , 
+Negative Nos  and 
+Not Greater than 100.
+Give a different Error Message for different values.
+
+7)	Write a Shell Script to Design a Unix/Linux List Command Menu
+As given below
+
+List Command
+(1)	List directory only in long format
+(2)	List files sorted on size
+(3)	List with Inode Number
+(4)	List in stream format
+(5)	Exit to Shell
+Accept option and execute the command and display the menu again using case and while loop statements
+
+
+8)	Write a shell Script to input a number through the Keyboard and calculate the sum of all its digit
+Eg :
+Number inputed is 5647
+Result is 5+6+4+7 = 22
+
+
+9)	Write a Shell Script to accept number and print the number in word as 
+Eg : 
+Number inputed is 245
+Result is Two Four Five
+
+
+
+
+
+
+
+
+
+
+
+
+10)	  Write a Shell Programming to accept a file name and check whether it is existing and display the permission set as 
+Owner
+Read
+Write
+Execute
+Group
+Read
+Write
+Execute
+Other
+Read
+Write
+Execute
+
+
+
+11)	  Write a Shell Program to accept a Filename in the Command Line of Shell  Program name
+Eg. Info a.c
+
+Check for the file existence
+If present in current directory , Print the information as given below
+
+Filename				:
+Inode No				:
+Size in Blocks			:
+Owner/User	Name			:
+Group Name			:
+Date/Time Creation		:
+Date/Time Modification		:
+Date/Time Last Accessed		:
+Total Lines				:
+Total Words				:
+Total Characters			:
+Total Number of Links		:
+File Device Type			:
+File Contents Type			:
+
+
+12)	 Write a Shell Script to find out all the Hard links of a particular file and display filename along with directory path using command line argument
+Hardlink  <filename>
+
+
+13)	 Write a Shell program to display Files in the current directory in the format given below using Command Line Parameters 
+Eg. Flist *.sh
+(a.sh) (main.sh) (pract.sh) (b.sh) (menu.sh)
+
+
+14)	 Write a Shell Script to find out from current directory all the identical files and remove them after doing a confirmation from the user
+
+
+15)	 Write a Shell Script to find out how many C programs file are there in file system and display them along with directory path 
+( Files without .c extention should also be considered as c programs file , if the contents is c program code )
+
+
+
+
+16)	 Write  a Shell Script to accept a filename from the command line 
+Eg         fourword <filename>
+Check for file existence
+Extract all 4 letter words from the file  
+Convert all words extracted into upper case
+Take all unique words
+Display all the words in 5 columns output in sorted order of columns
+
+
+17)	 Write a Shell Program  to
+
+Find out all other Same login name  process of current login User 
+Display the terminal No of whose other logins
+If the other Same Login process are available, Kill all accept  current login process of that user
+
+
+18)	 Write a shell script that accepts one or more filenames as command line arguments and converts all those filenames into upper case , if those files are present in the current directory
+
+
+19)	 Write a script to check if any user has logged in more than once in different terminal , if yes , then Display No of instances of that login
+
+
+20)	 Write a shell Script which accepts a String and a filename from the user , Check for the file existence , if exists search the string in that file and display all those lines which contains that string
+
+
+21)	 Write a Shell program to accept a number and print in format
+Eg :	if number input is  67
+Print as Sixty Seven
+	Note : Use Array for the above program
+
+
+22.  A "lucky number" of a person is one whose individual digits add up to particular number, in successive additions. For example,
+
+If person date of birth is 19 – 06 – 1975 
+then ( 1+9+0+6+1+9+7+5) = 38
+Further again add the resultant number ( 3 + 8 ) = 11 
+Further again add the resultant number (1 +1 ) = 2
+Till U get 1 digit number
+
+Lucky number of a person is 2 in the above case
+
+Write a Shell Script to accept date of birth of a person  
+And find out the lucky number of that person with the above method
+
+
+23 Write a Shell Script which will receive any number of filenames as arguments
+The shell script should check whether every argument supplied is a file or a directory
+If it is a directory it should be appropriately reported
+If it is a file then search all lines containing the word “Unix“ in the files and deletes them
+If file is not present , report a error on screen for that file
+
+
+24. Write a Menu driven program which has following options
+
+1.	Contents of /etc/passwd 
+2.	List of Users who have currently Logged in
+3.	List directory only in long format
+4.	Display the Calendar for the current Month
+5.	Report Disk space Usage Summary
+6.	Exit 
+
+Make Use of case statement
+Menu Should be placed approximately in the centre of the screen and 
+should be displayed in bold 
+
+
+25.  Write a Shell program to display the output using Nested while loops as 
+		
+1
+		12
+		123
+		1234
+		12345
+		1234
+		123
+		12
+		1
+
+
+
+26. The file /etc/passwd contains information about all the users.
+However it is difficult to decipher the information stored in it .
+Write a shell script which would receive the logname as a command line Arguments
+Eg :   LogInfo <Logname>
+
+If Logname is not present in passwd file , report a error
+Else obtain information from /etc/passwd and display information on the screen in easily understandable format
+Given below
+
+Login Name           :
+Real Name             :
+User ID                  :
+Group ID               :
+Home Directory    :
+Default Shell         :
+
+
+27. Write a Shell  program to print the numbers in the following format:
+        Use While or Until loop for the following program
+
+  1  2  3  4  5
+  2  3  4  5  6
+  3  4  5  6  7
+  4  5  6  7  8
+  5  6  7  8  9
+
+
+28. Write a Shell program to display Files in the current directory in the format given below using Command Line Parameters 
+
+Eg. FileInfo *.bash
+
+( a.bash -> 25 Lines , 130 Words , 890 Characters ) 
+( main.bash -> 33 Lines , 330 Words , 1090 Characters ) 
+( pract.bash -> 12 Lines , 98 Words , 230 Characters ) 
+
+
+29. Write a Shell Programming Using if … elif else   statement
+Accept  Student Rollno , Student Name , 3 Subject Marks ,
+Calculate Total Marks , Average and Grade  
+
+Validate Subject Marks for blank , Negative , > 100
+Rules for calculating Grade
+
+Condition					Grade 
+Any Subect Marks < 50     			F 
+Avg >= 80					A
+Avg >= 70 < 80 				B
+Avg >= 60 < 70				C
+Avg >= 50 < 60				D
+
+               
+Print Student Rollno , Student Name , 3 subject marks , Total Marks . Average and Grade.
+Also take the output in a file “StudentResult.dat”
+
+
+
+***************** ********************* *****************
